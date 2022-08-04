@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="transbox">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to contribute to the language comunity!</p>
+    </div>
+
+    <form id="survey-form" action="">
+    <div>
+    <label id="name-label" for="name">Name</label>
+    <br>
+    <input type="text" name="name" id="name" class="form-control" required placeholder="Enter your name">
+    </div>
+
+    <div>
+    <label id="email-label" for="email">Email</label>
+    <br>
+    <input type="email" name="email" id="email" class="form-control" required placeholder="Enter your Email">
+    </div>
+
+    <div>
+    <label id="number-label" for="age">Age(optional)</label>
+    <br>
+    <input type="number" name="number" id="number" min="0" max="100" class="form-control" placeholder="Age">
+    </div>
+
+    <div>
+    <h5>What is your current role?</h5>
+    <select name="role" id="dropdown" class="form-control" required>
+    <option disabled selected value>Select your current role</option>
+    <option value="Student">Student</option>
+    <option value="Language Student">Language Student<option>  
+    <option value="Teacher">Teacher</option> 
+    <option value="Linguist">Linguist</option> 
+    <option value="Polyglot">Polyglot<option>
+    <option value="Other">Other<option> 
+    </select>
+    </div>
+
+        <div>
+        <h5>Is English your native language?</h5>
+        <input type="radio" value="yes" id="yes" name="englvl" class="form-control">
+        <label for="yes">Yes</label>
+        <input type="radio" value="no" id="no" name="englvl" class="form-control">
+        <label for="no">No</label>
+        <input type="radio" value="bilingual" id="bilingual" name="englvl" class="form-control">
+        <label for="bilingual">Bilingual</label>
+        </div>
+    
+        <div>
+        <!-- Infodemic Pandemocracy Plandemic Scamdemic Spendemic Moronavirus Vaxinista Vaxhole Toilet-paper hoarder Pandenemy Maskhole Covidiot–-->
+        <h5>How would you characterise the COVID-19 period?</h5>
+        <input type="checkbox" id="period"
+        name="period" value="Infodemic">
+        <label for="period">Infodemic</label>
+        <br>
+        <input type="checkbox" id="period"
+        name="period" value="Pandemocracy">
+        <label for="period">Pandemocracy</label>
+        <br>
+        <input type="checkbox" id="period"
+        name="period" value="Plandemic">
+        <label for="period">Plandemic</label>
+        <br>
+        <input type="checkbox" id="period"
+        name="period" value="Scamdemic">
+        <label for="period">Scamdemic</label>
+        <br>
+        <input type="checkbox" id="period"
+        name="period" value="Spendemic">
+        <label for="period">Spendemic</label>
+        <br>
+        <input type="checkbox" id="period"
+        name="period" value="Moronavirus">
+        <label for="period">Moronavirus</label>
+        </div>
+
+        <div>
+        <br>
+        <label for="comments">Do you have any comments or suggestions?</label>
+        <br>
+        <textarea id="comments" name="comments" rows="10" cols="50" placeholder="Enter your comment here..."></textarea>
+        </div>
+    
+        <div>
+        <input type="submit" id="submit" name="submit">
+        </div>
+        </form>
+</body>
+</html>
