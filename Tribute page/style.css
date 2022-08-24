@@ -13,33 +13,7 @@
     align-content: center;
     }
 
-    @media screen and (max-width: 500px) {
-        
-            #title {
-                font-size: 2rem;
-            }
-            #img-caption {
-                font-size: 0.8rem;
-            }
-            #tribute-info h2 {
-                font-size: 1rem;
-            }
-            ul li {
-                font-size: 0.7rem;
-                margin: 20px;
-            }
 
-        #q {
-            font-size: 0.7rem;
-        }
-        #q span {
-        font-size: 0.3rem;
-    }
-        #link p {
-            font-size: 0.7rem;
-        }
-    }
-    /* Don't see last 2 changes */
 
     h4 {
     text-align: center;
@@ -98,10 +72,45 @@
     text-align: center;
     display: block;
     font-size: 1.17em;
-    margin-block-start: 1em;
+    margin: 50px 50px;
+    /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-end: 0px; */
     font-size: 1rem;
 }
 /* Check usual margins */
+i {
+    font-style: italic;
+}
+bold {
+    font-weight: 700;
+}
+
+    @media screen and (max-width: 500px) {
+        
+            #title {
+                font-size: 2rem;
+            }
+            #img-caption {
+                font-size: 0.8rem;
+            }
+            #tribute-info h2 {
+                font-size: 1rem;
+            }
+            ul li {
+                font-size: 0.7rem;
+                margin: 20px;
+            }
+
+        #q {
+            font-size: 0.7rem;
+        }
+        #q span {
+        font-size: 0.5rem;
+    }
+        #link p {
+            font-size: 0.7rem;
+        }
+    }
+    
