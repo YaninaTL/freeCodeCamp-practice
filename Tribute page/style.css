@@ -12,6 +12,35 @@
     margin: 20px auto;
     align-content: center;
     }
+
+    @media screen and (max-width: 500px) {
+        
+            #title {
+                font-size: 2rem;
+            }
+            #img-caption {
+                font-size: 0.8rem;
+            }
+            #tribute-info h2 {
+                font-size: 1rem;
+            }
+            ul li {
+                font-size: 0.7rem;
+                margin: 20px;
+            }
+
+        #q {
+            font-size: 0.7rem;
+        }
+        #q span {
+        font-size: 0.3rem;
+    }
+        #link p {
+            font-size: 0.7rem;
+        }
+    }
+    /* Don't see last 2 changes */
+
     h4 {
     text-align: center;
     font-size: 1rem;
@@ -34,4 +63,45 @@
     margin: 20px auto;
         }
 
+    #tribute-info h2 {
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 15px;
+    }
 
+    ul {
+        margin: 0 auto 50px auto;
+        display: block;
+        text-align: left;
+        max-width: 550px;
+        text-align: left;
+        line-height: 1.6;
+        
+    }
+    li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    }
+
+    #q {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    margin: 10px;
+    }
+
+    #q span {
+        font-size: 0.8rem;
+    }
+
+    #link p {
+    text-align: center;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1rem;
+}
+/* Check usual margins */
