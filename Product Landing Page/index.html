@@ -26,15 +26,15 @@
       <nav id="nav-bar">
         <ul>
           <li>
-            <a class="nav-link" href="">Features</a>
+            <a class="nav-link" href="#features">Features</a>
           </li>
           <li>
-            <a class="nav-link" href="">How it works</a>
+            <a class="nav-link" href="#how_it_works">How it works</a>
           </li>
           <li>
-            <a class="nav-link" href="">Pricing</a>
+            <a class="nav-link" href="#prising">Pricing</a>
           </li>
-          <!-- Add id of the section in the a name -->
+          <!-- Add id of the section -->
         </ul>
       </nav>
     </header>
@@ -50,9 +50,11 @@
           />
           <!-- Validation -->
 
-          <input id="submit" type="submit" />
+          <input class="btn" id="submit" type="submit" value="Get Started" />
+          <!-- Add value for the name of the btn -->
+          <!-- Add class btn -->
           <!-- https://www.freecodecamp.com/email-submit -->
-          <!-- To add action -->
+          <!-- To add form action -->
         </form>
       </section>
     </div>
@@ -60,51 +62,90 @@
       <section id="features">
         <div class="small-container">
           <div class="icon">
-            <img src="" alt="" />
+            <img src="../../img/material.png" alt="" />
           </div>
           <div class="description">
-            <h2></h2>
-            <p></p>
+            <h2>Premium Materials</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+              natus aperiam recusandae aliquid dolor doloribus!
+            </p>
+          </div>
+        </div>
+        <div class="small-container">
+          <div class="icon">
+            <img src="../../img/delivery.png" alt="" />
+          </div>
+          <div class="description">
+            <h2>Fast Shipping</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ex
+              aperiam nemo laborum hic veniam ea, aut vitae.
+            </p>
+          </div>
+        </div>
+        <div class="small-container">
+          <div class="icon">
+            <img src="../../img/guarantee.png" alt="" />
+          </div>
+          <div class="description">
+            <h2>Quality Assurance</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet enim
+              ab quas rem, fuga ad illum quos!
+            </p>
           </div>
         </div>
       </section>
       <section id="how_it_works">
-        <video id="video" src=""></video>
+        <iframe
+          width="800"
+          height="500"
+          src="https://www.youtube.com/embed/y4YoXGBoiSg"
+          title="Famous Bass guitars sound comparison. Guitarbank session"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <!-- Copy embedded code -->
       </section>
       <section id="pricing">
         <div class="item">
-          <h2></h2>
-          <h3></h3>
-          <p></p>
-          <button></button>
+          <h2>Stratocaster (Fender)</h2>
+          <h3>$1600</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+            dicta.
+          </p>
+          <button class="btn">Select</button>
         </div>
         <div class="item">
-          <h2></h2>
-          <h3></h3>
-          <p></p>
-          <button></button>
+          <h2>Telecaster (Fender)</h2>
+          <h3>$1900</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button class="btn">Select</button>
         </div>
         <div class="item">
-          <h2></h2>
-          <h3></h3>
-          <p></p>
-          <button></button>
+          <h2>Les Paul (Gibson)</h2>
+          <h3>$1200</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+          <button class="btn">Select</button>
         </div>
       </section>
     </div>
     <footer>
       <ul>
         <li>
-          <a href=""></a>
+          <a href="">Privacy</a>
         </li>
         <li>
-          <a href=""></a>
+          <a href="">Terms</a>
         </li>
         <li>
-          <a href=""></a>
+          <a href="">Contact</a>
         </li>
       </ul>
-      <span></span>
+      <span>&copy; Copyright 2022, E-guitar</span>
     </footer>
   </body>
 </html>
