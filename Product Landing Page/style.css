@@ -3,4 +3,75 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 2em;
+  background-color: lightgray;
+  border-bottom: 2px solid black;
+}
+header .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5em;
+  list-style: none;
+}
+header ul .nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  z-index: 1;
+  position: relative;
+}
+header ul .nav-link:hover {
+  color: darkred;
+}
+header ul li:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+header ul .nav-link::after {
+  content: "";
+  position: absolute;
+  background-color: darkred;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+header ul .nav-link:hover::after {
+  width: 100%;
+}
+
+.container {
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 1em;
+}
+
+footer {
+  background-color: lightgrey;
 }/*# sourceMappingURL=style.css.map */
