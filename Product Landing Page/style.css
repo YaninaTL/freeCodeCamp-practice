@@ -91,6 +91,31 @@ header ul .nav-link:hover::after {
   background-color: darkred;
 }
 
+#features {
+  margin: 30px auto;
+  margin-left: 17em;
+}
+#features .small-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2em;
+  padding: 1.4em;
+}
+#features .small-container .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 footer {
   background-color: lightgrey;
+}
+
+@media (max-width: 1200px) {
+  #features {
+    margin: 30px auto;
+    margin-left: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
