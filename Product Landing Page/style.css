@@ -17,6 +17,10 @@ header .logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  cursor: default;
+}
+header .logo header-img {
+  cursor: pointer;
 }
 header ul {
   display: flex;
@@ -38,7 +42,7 @@ header ul .nav-link:hover {
 }
 header ul li:hover {
   transform: scale(1.05);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 header ul .nav-link::after {
   content: "";
@@ -57,6 +61,7 @@ header ul .nav-link:hover::after {
 .container {
   padding: 1em 2em;
   text-align: center;
+  background-color: rgb(242, 248, 253);
 }
 
 .hero {

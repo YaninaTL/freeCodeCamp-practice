@@ -20,6 +20,11 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    cursor: default;
+
+    header-img {
+      cursor: pointer;
+    }
   }
 
   ul {
@@ -46,7 +51,7 @@ header {
 
     li:hover {
       transform: scale(1.05);
-      transition: 0.5s;
+      transition: 0.3s;
     }
     // Code underscore
     .nav-link::after {
@@ -69,6 +74,7 @@ header {
 .container {
   padding: 1em 2em;
   text-align: center;
+  background-color: rgb(242, 248, 253);
 }
 
 .hero {
