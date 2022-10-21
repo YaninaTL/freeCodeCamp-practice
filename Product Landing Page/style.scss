@@ -83,6 +83,25 @@ header {
     gap: 0.5em;
 
     padding: 1em;
+
+    width: 300px;
+
+    input[type="email"] {
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      border-radius: 5px;
+
+      text-transform: uppercase;
+    }
+
+    input[type="submit"]:active {
+      color: white;
+      background-color: darkred;
+    }
   }
 }
 
