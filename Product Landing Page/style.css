@@ -85,6 +85,7 @@ header ul .nav-link:hover::after {
   padding: 10px 20px;
   border-radius: 5px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .hero form input[type=submit]:active {
   color: white;
@@ -109,13 +110,69 @@ header ul .nav-link:hover::after {
   align-items: flex-start;
 }
 
+#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+#pricing .item {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  padding: 2em 1em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+  background-color: rgb(202, 215, 224);
+}
+#pricing .item .btn {
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#pricing .item .btn:active {
+  color: white;
+  background-color: darkred;
+}
+
 footer {
   background-color: lightgrey;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em 10em;
+}
+footer ul {
+  display: flex;
+  gap: 3em;
+  list-style: none;
+}
+footer ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.125rem;
+}
+footer ul a:hover {
+  color: darkred;
 }
 
 @media (max-width: 1200px) {
   #features {
     margin: 30px auto;
     margin-left: 0;
+  }
+  iframe {
+    width: 600px;
+    height: 400px;
   }
 }/*# sourceMappingURL=style.css.map */

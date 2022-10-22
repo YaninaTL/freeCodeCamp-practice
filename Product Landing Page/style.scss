@@ -102,6 +102,7 @@ header {
       border-radius: 5px;
 
       text-transform: uppercase;
+      cursor: pointer;
     }
 
     input[type="submit"]:active {
@@ -133,13 +134,83 @@ header {
   }
 }
 
+#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+
+    padding: 2em 1em;
+
+    margin-top: 3em;
+    margin-bottom: 1em;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    box-shadow: 5px 5px 10px grey;
+    background-color: rgb(202, 215, 224);
+
+    .btn {
+      padding: 0.5em 1em;
+      margin-top: 0.5em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .btn:active {
+      color: white;
+      background-color: darkred;
+    }
+  }
+}
+
 footer {
   background-color: lightgrey;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+
+  padding: 2em 10em;
+
+  ul {
+    display: flex;
+    gap: 3em;
+
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: black;
+
+      font-size: 1.125rem;
+    }
+
+    a:hover {
+      color: darkred;
+    }
+  }
 }
 
 @media (max-width: 1200px) {
   #features {
     margin: 30px auto;
     margin-left: 0;
+  }
+
+  iframe {
+    width: 600px;
+    height: 400px;
   }
 }
